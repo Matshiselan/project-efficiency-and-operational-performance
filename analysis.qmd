@@ -1,0 +1,15 @@
+## Analysis
+
+```{r}
+#| label: load-excel
+#| message: false
+#| warning: false
+
+library(readxl)
+
+excel_file <- "data.xlsx"
+data <- read_excel(excel_file)
+
+head(data, 10)
+```
+
